@@ -1,0 +1,17 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font: bold 30px sans-serif;
+}
+
+.button {
+    margin-top: 30px;
+}
+ 
+button {
+    width: 80px;
+}

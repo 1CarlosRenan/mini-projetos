@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font: bold 20px sans-serif;
+}
+
+.button{
+    width: 80px;
+}
+
+#desligado{
+    margin-bottom: 20px;
+}
