@@ -13,7 +13,7 @@ quadrados.forEach((quadrado) => {
 })
 
 function escolherQuadrado(element) {
-    if (element.innerHTML !== '-') {
+    if (element.innerHTML !== '-' || temVencedor) {
         return
     }
 
@@ -49,6 +49,4 @@ function checarVencedor() {
 
     console.log(temVencedor)
     console.log(arrVencedor)
-
-
 }
